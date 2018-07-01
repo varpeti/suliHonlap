@@ -1,0 +1,62 @@
+<stily>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Váraljai Péter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../../styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../../Highlight/styles/default.css">
+    <script src="../../Highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div id="header">
+	<a id="top"></a>
+	<h1>Váraljai Péter</h1>
+	<ul>
+		<li><a href="../../index.html">Főoldal</a> </li>
+	</ul>
+</div>
+
+<div id="CONTENT">
+	<h2>Glut telepítése</h2>
+	<div id="TEXT">
+		<pre><code class="bash">
+sudo apt-get install freeglut3-dev
+		</code></pre>
+	</div>
+</div>
+
+<div id="CONTENT">
+	<h2>Fordítás:</h2>
+	<div id="TEXT">
+		<pre><code class="bash">
+g++ main.cpp -lglut -lGLU -lGL -o main.run
+		</code></pre>
+		<p>A main.cpp helyén más file(ok) neve(i) is állhat(nak), és akkor azt(/azokat) fordítja.</p>
+	</div>
+	<div id="TEXT">
+		<p>A include résznél ennek kell állnia linuxon:</p>
+		<pre><code class="c++">
+#include &ltGL/gl.h&gt
+#include &ltGL/glu.h&gt
+#include &ltGL/glut.h&gt
+		</code></pre>
+		<p>windowson:</p>
+		<pre><code class="c++">
+#include &ltgl/gl.h&gt
+#include &ltgl/glu.h&gt
+#include &ltgl/glut.h&gt
+		</code></pre>
+	</div>
+</div>
+
+<div id="FOOTER">
+	<p><br></p>
+	<p><a href="#top">Vissza a tetejére</a></p>
+	<p><br></p>
+</div>
+
+</body>
+</html>
