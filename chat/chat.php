@@ -26,7 +26,7 @@ require_once("egyszerlink.php");
 
 if(isset($_POST["s_kuld"]))
 { 
-    ujuzenet($_SESSION['nev'],$_POST["s_szoveg"]); //htmlspecialchars($_POST["s_szoveg"], ENT_QUOTES); // ne lehessen HTML vagy Javascript injection - majd kliens oldalon
+    ujuzenet($_SESSION['nev'],htmlspecialchars($_POST["s_szoveg"], ENT_QUOTES)); // ne lehessen HTML vagy Javascript injection - majd kliens oldalon
 }
 
 if (file_exists("../../private_html/chat/szobak/" . $_SESSION['szoba'] . ".szoba") and $db= fopen("../../private_html/chat/szobak/" . $_SESSION['szoba'] . ".szoba", "r")) 
