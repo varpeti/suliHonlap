@@ -1,4 +1,4 @@
 02.jpg
 Legacy
 A régi oldal folyamatosan be lesz dolgozva az újba, 
-jelenleg elérhető az <a href="../old/">Egyéb/Old</a> menüpontban.
+jelenleg elérhető az <a href="../old/">Egyéb/Régi honlap maradványai</a> menüpontban.

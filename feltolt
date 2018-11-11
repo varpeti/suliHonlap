@@ -1,0 +1,1 @@
+scp -r $1/$2 varpe8@users.itk.ppke.hu:public_html/$1
