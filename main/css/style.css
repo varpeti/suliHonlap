@@ -849,7 +849,6 @@ a:active {
     font-family: Karla, Arial, sans-serif;
     width: 100%;
     z-index: 10000;
-    margin-top: -10px;
 }
 
 .main-navigation li {
@@ -1065,7 +1064,7 @@ a:active {
     .sticky {
         bottom: auto;
         position: fixed;
-        top: 10px;
+        top: 0;
     }
 }
 
