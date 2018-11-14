@@ -16,4 +16,5 @@
             navbar.classList.remove("sticky");
         }
     }
+    navScroll();
 })();

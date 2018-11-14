@@ -1065,7 +1065,7 @@ a:active {
     .sticky {
         bottom: auto;
         position: fixed;
-        top: 0;
+        top: 10px;
     }
 }
 
