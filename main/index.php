@@ -8,7 +8,8 @@ if ($handle = opendir('posts'))
     while (false !== ($entry = readdir($handle))) 
     {
         array_push($entries, $entry);
-    }  
+    } 
+    sort($entries);
 
     for($i=sizeof($entries)-1; $i>=0; $i--)
     {
