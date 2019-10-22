@@ -24,11 +24,11 @@ if ($handle = opendir('posts'))
 
             if ($file) 
             {
-                require("p1.html");
+                //require("p1.html");
 
                 if (($line = fgets($file)) !== false) 
                 {
-                    echo '<div class="pique-panel-background" style="background-image:url(img/'.rtrim($line).')"></div>';
+                    echo '        <div class="fix-background article" style="background-image:url(img/'.rtrim($line).')">';
                 }
 
                 require("p2.html");
