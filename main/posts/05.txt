@@ -1,0 +1,4 @@
+05.jpg
+Github
+<a href="https://github.com/varpeti/Suli2">Új repositori</a>t kezdtem ahol a nagyméretű fileok LFS-el vannak köetve.<br>
+Innét kezdve ide töltöm fel a jegyzeteimet, anyagaimat.

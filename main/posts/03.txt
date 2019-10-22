@@ -1,11 +1,12 @@
 03.jpg
 Jegyzeteim
-Kézzel írt jegyzeteim:</br>
-</br>
-<a href="https://imgur.com/a/f11ydcb">DigJel</a></br>
-<a href="https://imgur.com/a/KTvISwg">DigSzám</a></br>
-<a href="https://imgur.com/a/g68dIA0">DigSzar</a></br>
-<a href="https://imgur.com/a/EKoBD6v">ProgNyelv</a></br>
-</br>
-A GitHub-om továbbra is elérhető:</br>
-<a href="https://github.com/varpeti/Suli">varpeti/Suli</a></br>
+Kézzel írt jegyzeteim:<br>
+<br>
+<a href="https://imgur.com/a/f11ydcb">DigJel</a><br>
+<a href="https://imgur.com/a/KTvISwg">DigSzám</a><br>
+<a href="https://imgur.com/a/g68dIA0">DigSzar</a><br>
+<a href="https://imgur.com/a/EKoBD6v">ProgNyelv</a><br>
+<br>
+A GitHub-om továbbra is elérhető:<br>
+<a href="https://github.com/varpeti/Suli">varpeti/Suli2</a><br>
+<small>Edit: suli->suli2</small>
