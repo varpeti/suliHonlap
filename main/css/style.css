@@ -167,3 +167,10 @@
     position: relative;
     text-align: center;
 }
+
+.sticky 
+{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}

@@ -2,7 +2,7 @@
 {
     window.onscroll = function() {navScroll()};
 
-    var navbar = document.getElementsByClassName("main-navigation")[0];
+    var navbar = document.getElementsByClassName("navbar")[0];
     var sticky = navbar.offsetTop;
     
     function navScroll() 
